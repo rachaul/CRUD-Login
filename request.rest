@@ -1,0 +1,21 @@
+GET http://localhost:1998/login
+
+###
+GET http://localhost:1998/login/6255994ad6746843cb218ec0
+
+###
+POST http://localhost:1998/login
+Content-Type: application/json
+
+{
+    "username": "Marvalioso Santamaria",
+    "password": 0213456
+}
+
+###
+PATCH http://localhost:1998/login/62559a75d6746843cb218ec2
+Content-Type: : application/json
+
+
+###
+DELETE http://localhost:1998/login/62559a75d6746843cb218ec2
